@@ -2,12 +2,11 @@
 As an HR manager, I want a comprehensive dashboard to analyze human resources data, providing both summary views for high-level insights and detailed employee records for in-depth analysis
 
 # Summary View
-
 The summary view should be divided into three main sections: Overview, Demographics, and Income Analysis
+
 
 # Overview
 The Overview section should provide a snapshot of the overall HR metrics, including:
-
 Display the total number of hired employees, active employees, and terminated employees.
 Visualize the total number of hired and terminated employees over the years.
 Present a breakdown of total employees by department and job titles.
@@ -59,3 +58,6 @@ Birth Date: Generated based on age group distribution and job title requirements
 Termination Date: Assigned to a subset of employees (11.2% of the total) with specific probabilities for each year from 2015 to 2024, ensuring the termination date is at least 6 months after the hire date.
 Adjusted Salary: Calculated based on gender, education level, and age, applying specific multipliers and increments.
 Be sure to structure the code cleanly, using functions where appropriate, and include comments to explain each step of the process.
+
+# Generated data file
+[HumanResources.csv](https://github.com/user-attachments/files/16203457/HumanResources.csv)
