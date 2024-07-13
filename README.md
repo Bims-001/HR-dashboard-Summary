@@ -43,7 +43,9 @@ Users should be able to filter the list based on any of the available columns.
 Chat-GPT Prompts
 Generate python script to generate a realistic dataset of 8950 records for human resources. The dataset should include the following attributes:
 Employee ID: A unique identifier.
+
 First Name: Randomly generated.
+
 Last Name: Randomly generated.
 Gender: Randomly chosen with a 46% probability for ‘Female’ and a 54% probability for ‘Male’.
 State and City: Randomly assigned from a predefined list of states and their cities.
