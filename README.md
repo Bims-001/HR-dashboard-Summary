@@ -35,11 +35,11 @@ Add logos and icons.
 As an HR manager, I want a comprehensive dashboard to analyze human resources data, providing both summary views for high-level insights and detailed employee records for in-depth analysis
 
 # Summary View
-The summary view should be divided into three main sections: Overview, Demographics, and Income Analysis
+The summary view is diivided into three sections: Overview, Demographics, and Income Analysis
 
 
 # Overview
-The Overview section should provide a snapshot of the overall HR metrics, including:
+The Overview section provide a snapshot of the overall HR metrics, including:
 Display the total number of hired employees, active employees, and terminated employees.
 Visualize the total number of hired and terminated employees over the years.
 Present a breakdown of total employees by department and job titles.
@@ -48,7 +48,7 @@ Show the distribution of employees by city and state.
 
 
 # Demographics
-The Demographics section should offer insights into the composition of the workforce, including:
+The Demographics section offer insights into the composition of the workforce, including:
 
 Present the gender ratio in the company.
 Visualize the distribution of employees across age groups and education levels.
@@ -110,3 +110,12 @@ Be sure to structure the code cleanly, using functions where appropriate, and in
 # Generated data file
 [HumanResources.csv](https://github.com/user-attachments/files/16203457/HumanResources.csv)
 
+
+# Final dashboard
+
+![HR _ Summary](https://github.com/user-attachments/assets/0a0e6981-0e5f-41c7-8f02-1b2403f1f4ce)
+![HR _ Details](https://github.com/user-attachments/assets/1c64cfb6-405b-4bfe-ade2-814361459174)
+
+
+# Tableau Public link to dashboard
+https://public.tableau.com/app/profile/abimbola.taiwo/viz/HRSummary_17205267333270/HRSummary 
