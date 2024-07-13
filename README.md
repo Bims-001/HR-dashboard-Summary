@@ -1,3 +1,36 @@
+# Road Map
+
+# Building data source
+Collect data.
+Connect data.
+Check data quality using.
+Check data types.
+Understand and explore data in Tableau.
+
+# Building charts
+Analyse Requirements and choose chart.
+Initiate sheet format.
+Create calculated fields and test.
+Build chart.
+Format chart.
+
+# Buiding Dashboards
+
+PLan dashboard
+Create container structure.
+Put all together.
+fixing colors.
+Fix texts.
+Refine charts.
+Fix spacings(Innert and outer spacing).
+Fix tooltips.
+Add filters and Legends.
+Add logos and icons.
+
+
+
+
+
 # User Story - HR Dashboard
 As an HR manager, I want a comprehensive dashboard to analyze human resources data, providing both summary views for high-level insights and detailed employee records for in-depth analysis
 
@@ -40,13 +73,14 @@ Users should be able to filter the list based on any of the available columns.
 
 # Data Generation
 
-Chat-GPT Prompts
+# Chat-GPT Prompts
 Generate python script to generate a realistic dataset of 8950 records for human resources. The dataset should include the following attributes:
 Employee ID: A unique identifier.
 
 First Name: Randomly generated.
 
 Last Name: Randomly generated.
+
 Gender: Randomly chosen with a 46% probability for ‘Female’ and a 54% probability for ‘Male’.
 
 State and City: Randomly assigned from a predefined list of states and their cities.
@@ -66,6 +100,7 @@ Overtime: Randomly chosen with a 30% probability for ‘Yes’ and a 70% probabi
 Salary: Generated based on the department and job title, within specific ranges.
 
 Birth Date: Generated based on age group distribution and job title requirements, ensuring consistency with the hire date.
+
 Termination Date: Assigned to a subset of employees (11.2% of the total) with specific probabilities for each year from 2015 to 2024, ensuring the termination date is at least 6 months after the hire date.
 
 Adjusted Salary: Calculated based on gender, education level, and age, applying specific multipliers and increments.
@@ -74,3 +109,4 @@ Be sure to structure the code cleanly, using functions where appropriate, and in
 
 # Generated data file
 [HumanResources.csv](https://github.com/user-attachments/files/16203457/HumanResources.csv)
+
